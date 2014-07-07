@@ -25,26 +25,7 @@
 		7541A2541967CDBE00758620 /* restart-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A24D1967CDBE00758620 /* restart-button.png */; };
 		7541A2551967CDBE00758620 /* ViewControllerz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A24F1967CDBE00758620 /* ViewControllerz.m */; };
 		7541A2561967CDBE00758620 /* ViewControllerz.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2501967CDBE00758620 /* ViewControllerz.xib */; };
-		7541A26C1967CEB300758620 /* DhmiT.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2581967CEB300758620 /* DhmiT.png */; };
-		7541A26D1967CEB300758620 /* FLW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2591967CEB300758620 /* FLW.jpg */; };
-		7541A26E1967CEB300758620 /* FRS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25A1967CEB300758620 /* FRS.jpg */; };
-		7541A26F1967CEB300758620 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25B1967CEB300758620 /* images.jpg */; };
-		7541A2701967CEB300758620 /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25C1967CEB300758620 /* imgres-1.jpg */; };
-		7541A2711967CEB300758620 /* imgres-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25D1967CEB300758620 /* imgres-10.jpg */; };
-		7541A2721967CEB300758620 /* imgres-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25E1967CEB300758620 /* imgres-11.jpg */; };
-		7541A2731967CEB300758620 /* imgres-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25F1967CEB300758620 /* imgres-12.jpg */; };
-		7541A2741967CEB300758620 /* imgres-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2601967CEB300758620 /* imgres-13.jpg */; };
-		7541A2751967CEB300758620 /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2611967CEB300758620 /* imgres-2.jpg */; };
-		7541A2761967CEB300758620 /* imgres-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2621967CEB300758620 /* imgres-3.jpg */; };
-		7541A2771967CEB300758620 /* imgres-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2631967CEB300758620 /* imgres-4.jpg */; };
-		7541A2781967CEB300758620 /* imgres-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2641967CEB300758620 /* imgres-5.jpg */; };
-		7541A2791967CEB300758620 /* imgres-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2651967CEB300758620 /* imgres-6.jpg */; };
-		7541A27A1967CEB300758620 /* imgres-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2661967CEB300758620 /* imgres-7.jpg */; };
-		7541A27B1967CEB300758620 /* imgres-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2671967CEB300758620 /* imgres-8.jpg */; };
-		7541A27C1967CEB300758620 /* imgres-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2681967CEB300758620 /* imgres-9.jpg */; };
-		7541A27D1967CEB300758620 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2691967CEB300758620 /* imgres.jpg */; };
-		7541A27E1967CEB300758620 /* restart-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A26A1967CEB300758620 /* restart-button.png */; };
-		7541A27F1967CEB300758620 /* simpleBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A26B1967CEB300758620 /* simpleBg.jpg */; };
+		75525C8F196ABC3E00D71BB3 /* restart-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 75525C8E196ABC3E00D71BB3 /* restart-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,33 +55,14 @@
 		7541A23C1967CDA200758620 /* YashasPicturePuzzleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YashasPicturePuzzleGameTests-Info.plist"; sourceTree = "<group>"; };
 		7541A23E1967CDA200758620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7541A2401967CDA200758620 /* YashasPicturePuzzleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YashasPicturePuzzleGameTests.m; sourceTree = "<group>"; };
-		7541A24A1967CDBE00758620 /* FLW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FLW.jpg; path = ../FLW.jpg; sourceTree = "<group>"; };
-		7541A24B1967CDBE00758620 /* FRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FRS.jpg; path = ../FRS.jpg; sourceTree = "<group>"; };
-		7541A24C1967CDBE00758620 /* ND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ND.jpg; path = ../ND.jpg; sourceTree = "<group>"; };
+		7541A24A1967CDBE00758620 /* FLW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FLW.jpg; sourceTree = "<group>"; };
+		7541A24B1967CDBE00758620 /* FRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FRS.jpg; sourceTree = "<group>"; };
+		7541A24C1967CDBE00758620 /* ND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ND.jpg; sourceTree = "<group>"; };
 		7541A24D1967CDBE00758620 /* restart-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-button.png"; sourceTree = "<group>"; };
 		7541A24E1967CDBE00758620 /* ViewControllerz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerz.h; sourceTree = "<group>"; };
 		7541A24F1967CDBE00758620 /* ViewControllerz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerz.m; sourceTree = "<group>"; };
 		7541A2501967CDBE00758620 /* ViewControllerz.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerz.xib; sourceTree = "<group>"; };
-		7541A2581967CEB300758620 /* DhmiT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DhmiT.png; sourceTree = "<group>"; };
-		7541A2591967CEB300758620 /* FLW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FLW.jpg; sourceTree = "<group>"; };
-		7541A25A1967CEB300758620 /* FRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FRS.jpg; sourceTree = "<group>"; };
-		7541A25B1967CEB300758620 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
-		7541A25C1967CEB300758620 /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
-		7541A25D1967CEB300758620 /* imgres-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-10.jpg"; sourceTree = "<group>"; };
-		7541A25E1967CEB300758620 /* imgres-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-11.jpg"; sourceTree = "<group>"; };
-		7541A25F1967CEB300758620 /* imgres-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-12.jpg"; sourceTree = "<group>"; };
-		7541A2601967CEB300758620 /* imgres-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-13.jpg"; sourceTree = "<group>"; };
-		7541A2611967CEB300758620 /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
-		7541A2621967CEB300758620 /* imgres-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-3.jpg"; sourceTree = "<group>"; };
-		7541A2631967CEB300758620 /* imgres-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-4.jpg"; sourceTree = "<group>"; };
-		7541A2641967CEB300758620 /* imgres-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-5.jpg"; sourceTree = "<group>"; };
-		7541A2651967CEB300758620 /* imgres-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-6.jpg"; sourceTree = "<group>"; };
-		7541A2661967CEB300758620 /* imgres-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-7.jpg"; sourceTree = "<group>"; };
-		7541A2671967CEB300758620 /* imgres-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-8.jpg"; sourceTree = "<group>"; };
-		7541A2681967CEB300758620 /* imgres-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-9.jpg"; sourceTree = "<group>"; };
-		7541A2691967CEB300758620 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
-		7541A26A1967CEB300758620 /* restart-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-button.png"; sourceTree = "<group>"; };
-		7541A26B1967CEB300758620 /* simpleBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpleBg.jpg; sourceTree = "<group>"; };
+		75525C8E196ABC3E00D71BB3 /* restart-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +128,10 @@
 				7541A24E1967CDBE00758620 /* ViewControllerz.h */,
 				7541A24F1967CDBE00758620 /* ViewControllerz.m */,
 				7541A2501967CDBE00758620 /* ViewControllerz.xib */,
-				7541A2571967CEB300758620 /* cars */,
+				7541A24A1967CDBE00758620 /* FLW.jpg */,
+				7541A24B1967CDBE00758620 /* FRS.jpg */,
+				7541A24C1967CDBE00758620 /* ND.jpg */,
+				75525C8E196ABC3E00D71BB3 /* restart-button.png */,
 				7541A22D1967CDA200758620 /* Images.xcassets */,
 				7541A2221967CDA200758620 /* Supporting Files */,
 			);
@@ -200,36 +165,6 @@
 				7541A23D1967CDA200758620 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7541A2571967CEB300758620 /* cars */ = {
-			isa = PBXGroup;
-			children = (
-				7541A24A1967CDBE00758620 /* FLW.jpg */,
-				7541A24B1967CDBE00758620 /* FRS.jpg */,
-				7541A24C1967CDBE00758620 /* ND.jpg */,
-				7541A2581967CEB300758620 /* DhmiT.png */,
-				7541A2591967CEB300758620 /* FLW.jpg */,
-				7541A25A1967CEB300758620 /* FRS.jpg */,
-				7541A25B1967CEB300758620 /* images.jpg */,
-				7541A25C1967CEB300758620 /* imgres-1.jpg */,
-				7541A25D1967CEB300758620 /* imgres-10.jpg */,
-				7541A25E1967CEB300758620 /* imgres-11.jpg */,
-				7541A25F1967CEB300758620 /* imgres-12.jpg */,
-				7541A2601967CEB300758620 /* imgres-13.jpg */,
-				7541A2611967CEB300758620 /* imgres-2.jpg */,
-				7541A2621967CEB300758620 /* imgres-3.jpg */,
-				7541A2631967CEB300758620 /* imgres-4.jpg */,
-				7541A2641967CEB300758620 /* imgres-5.jpg */,
-				7541A2651967CEB300758620 /* imgres-6.jpg */,
-				7541A2661967CEB300758620 /* imgres-7.jpg */,
-				7541A2671967CEB300758620 /* imgres-8.jpg */,
-				7541A2681967CEB300758620 /* imgres-9.jpg */,
-				7541A2691967CEB300758620 /* imgres.jpg */,
-				7541A26A1967CEB300758620 /* restart-button.png */,
-				7541A26B1967CEB300758620 /* simpleBg.jpg */,
-			);
-			path = cars;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,33 +242,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7541A2781967CEB300758620 /* imgres-5.jpg in Resources */,
-				7541A26D1967CEB300758620 /* FLW.jpg in Resources */,
 				7541A2531967CDBE00758620 /* ND.jpg in Resources */,
-				7541A2761967CEB300758620 /* imgres-3.jpg in Resources */,
 				7541A2541967CDBE00758620 /* restart-button.png in Resources */,
-				7541A27E1967CEB300758620 /* restart-button.png in Resources */,
-				7541A26C1967CEB300758620 /* DhmiT.png in Resources */,
-				7541A27A1967CEB300758620 /* imgres-7.jpg in Resources */,
-				7541A2741967CEB300758620 /* imgres-13.jpg in Resources */,
-				7541A27C1967CEB300758620 /* imgres-9.jpg in Resources */,
-				7541A27B1967CEB300758620 /* imgres-8.jpg in Resources */,
 				7541A2511967CDBE00758620 /* FLW.jpg in Resources */,
-				7541A2791967CEB300758620 /* imgres-6.jpg in Resources */,
-				7541A26F1967CEB300758620 /* images.jpg in Resources */,
 				7541A2521967CDBE00758620 /* FRS.jpg in Resources */,
+				75525C8F196ABC3E00D71BB3 /* restart-button.png in Resources */,
 				7541A2561967CDBE00758620 /* ViewControllerz.xib in Resources */,
-				7541A2701967CEB300758620 /* imgres-1.jpg in Resources */,
-				7541A27F1967CEB300758620 /* simpleBg.jpg in Resources */,
-				7541A27D1967CEB300758620 /* imgres.jpg in Resources */,
-				7541A2751967CEB300758620 /* imgres-2.jpg in Resources */,
 				7541A2261967CDA200758620 /* InfoPlist.strings in Resources */,
-				7541A2721967CEB300758620 /* imgres-11.jpg in Resources */,
 				7541A22E1967CDA200758620 /* Images.xcassets in Resources */,
-				7541A2771967CEB300758620 /* imgres-4.jpg in Resources */,
-				7541A26E1967CEB300758620 /* FRS.jpg in Resources */,
-				7541A2731967CEB300758620 /* imgres-12.jpg in Resources */,
-				7541A2711967CEB300758620 /* imgres-10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +467,7 @@
 				7541A2461967CDA200758620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7541A2471967CDA200758620 /* Build configuration list for PBXNativeTarget "YashasPicturePuzzleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +476,7 @@
 				7541A2491967CDA200758620 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
