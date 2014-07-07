@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7541A21C1967CDA200758620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A21B1967CDA200758620 /* Foundation.framework */; };
+		7541A21E1967CDA200758620 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A21D1967CDA200758620 /* CoreGraphics.framework */; };
+		7541A2201967CDA200758620 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A21F1967CDA200758620 /* UIKit.framework */; };
+		7541A2261967CDA200758620 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2241967CDA200758620 /* InfoPlist.strings */; };
+		7541A2281967CDA200758620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A2271967CDA200758620 /* main.m */; };
+		7541A22C1967CDA200758620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A22B1967CDA200758620 /* AppDelegate.m */; };
+		7541A22E1967CDA200758620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7541A22D1967CDA200758620 /* Images.xcassets */; };
+		7541A2351967CDA200758620 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A2341967CDA200758620 /* XCTest.framework */; };
+		7541A2361967CDA200758620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A21B1967CDA200758620 /* Foundation.framework */; };
+		7541A2371967CDA200758620 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541A21F1967CDA200758620 /* UIKit.framework */; };
+		7541A23F1967CDA200758620 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7541A23D1967CDA200758620 /* InfoPlist.strings */; };
+		7541A2411967CDA200758620 /* YashasPicturePuzzleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A2401967CDA200758620 /* YashasPicturePuzzleGameTests.m */; };
+		7541A2511967CDBE00758620 /* FLW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A24A1967CDBE00758620 /* FLW.jpg */; };
+		7541A2521967CDBE00758620 /* FRS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A24B1967CDBE00758620 /* FRS.jpg */; };
+		7541A2531967CDBE00758620 /* ND.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A24C1967CDBE00758620 /* ND.jpg */; };
+		7541A2541967CDBE00758620 /* restart-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A24D1967CDBE00758620 /* restart-button.png */; };
+		7541A2551967CDBE00758620 /* ViewControllerz.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541A24F1967CDBE00758620 /* ViewControllerz.m */; };
+		7541A2561967CDBE00758620 /* ViewControllerz.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2501967CDBE00758620 /* ViewControllerz.xib */; };
+		7541A26C1967CEB300758620 /* DhmiT.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2581967CEB300758620 /* DhmiT.png */; };
+		7541A26D1967CEB300758620 /* FLW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2591967CEB300758620 /* FLW.jpg */; };
+		7541A26E1967CEB300758620 /* FRS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25A1967CEB300758620 /* FRS.jpg */; };
+		7541A26F1967CEB300758620 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25B1967CEB300758620 /* images.jpg */; };
+		7541A2701967CEB300758620 /* imgres-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25C1967CEB300758620 /* imgres-1.jpg */; };
+		7541A2711967CEB300758620 /* imgres-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25D1967CEB300758620 /* imgres-10.jpg */; };
+		7541A2721967CEB300758620 /* imgres-11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25E1967CEB300758620 /* imgres-11.jpg */; };
+		7541A2731967CEB300758620 /* imgres-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A25F1967CEB300758620 /* imgres-12.jpg */; };
+		7541A2741967CEB300758620 /* imgres-13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2601967CEB300758620 /* imgres-13.jpg */; };
+		7541A2751967CEB300758620 /* imgres-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2611967CEB300758620 /* imgres-2.jpg */; };
+		7541A2761967CEB300758620 /* imgres-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2621967CEB300758620 /* imgres-3.jpg */; };
+		7541A2771967CEB300758620 /* imgres-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2631967CEB300758620 /* imgres-4.jpg */; };
+		7541A2781967CEB300758620 /* imgres-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2641967CEB300758620 /* imgres-5.jpg */; };
+		7541A2791967CEB300758620 /* imgres-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2651967CEB300758620 /* imgres-6.jpg */; };
+		7541A27A1967CEB300758620 /* imgres-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2661967CEB300758620 /* imgres-7.jpg */; };
+		7541A27B1967CEB300758620 /* imgres-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2671967CEB300758620 /* imgres-8.jpg */; };
+		7541A27C1967CEB300758620 /* imgres-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2681967CEB300758620 /* imgres-9.jpg */; };
+		7541A27D1967CEB300758620 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A2691967CEB300758620 /* imgres.jpg */; };
+		7541A27E1967CEB300758620 /* restart-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7541A26A1967CEB300758620 /* restart-button.png */; };
+		7541A27F1967CEB300758620 /* simpleBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7541A26B1967CEB300758620 /* simpleBg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7541A2381967CDA200758620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7541A2101967CDA200758620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7541A2171967CDA200758620;
+			remoteInfo = YashasPicturePuzzleGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7541A2181967CDA200758620 /* YashasPicturePuzzleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YashasPicturePuzzleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7541A21B1967CDA200758620 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7541A21D1967CDA200758620 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7541A21F1967CDA200758620 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7541A2231967CDA200758620 /* YashasPicturePuzzleGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YashasPicturePuzzleGame-Info.plist"; sourceTree = "<group>"; };
+		7541A2251967CDA200758620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7541A2271967CDA200758620 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7541A2291967CDA200758620 /* YashasPicturePuzzleGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YashasPicturePuzzleGame-Prefix.pch"; sourceTree = "<group>"; };
+		7541A22A1967CDA200758620 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7541A22B1967CDA200758620 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7541A22D1967CDA200758620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7541A2331967CDA200758620 /* YashasPicturePuzzleGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YashasPicturePuzzleGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7541A2341967CDA200758620 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7541A23C1967CDA200758620 /* YashasPicturePuzzleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YashasPicturePuzzleGameTests-Info.plist"; sourceTree = "<group>"; };
+		7541A23E1967CDA200758620 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7541A2401967CDA200758620 /* YashasPicturePuzzleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YashasPicturePuzzleGameTests.m; sourceTree = "<group>"; };
+		7541A24A1967CDBE00758620 /* FLW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FLW.jpg; path = ../FLW.jpg; sourceTree = "<group>"; };
+		7541A24B1967CDBE00758620 /* FRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FRS.jpg; path = ../FRS.jpg; sourceTree = "<group>"; };
+		7541A24C1967CDBE00758620 /* ND.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ND.jpg; path = ../ND.jpg; sourceTree = "<group>"; };
+		7541A24D1967CDBE00758620 /* restart-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-button.png"; sourceTree = "<group>"; };
+		7541A24E1967CDBE00758620 /* ViewControllerz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerz.h; sourceTree = "<group>"; };
+		7541A24F1967CDBE00758620 /* ViewControllerz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerz.m; sourceTree = "<group>"; };
+		7541A2501967CDBE00758620 /* ViewControllerz.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerz.xib; sourceTree = "<group>"; };
+		7541A2581967CEB300758620 /* DhmiT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DhmiT.png; sourceTree = "<group>"; };
+		7541A2591967CEB300758620 /* FLW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FLW.jpg; sourceTree = "<group>"; };
+		7541A25A1967CEB300758620 /* FRS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FRS.jpg; sourceTree = "<group>"; };
+		7541A25B1967CEB300758620 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		7541A25C1967CEB300758620 /* imgres-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-1.jpg"; sourceTree = "<group>"; };
+		7541A25D1967CEB300758620 /* imgres-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-10.jpg"; sourceTree = "<group>"; };
+		7541A25E1967CEB300758620 /* imgres-11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-11.jpg"; sourceTree = "<group>"; };
+		7541A25F1967CEB300758620 /* imgres-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-12.jpg"; sourceTree = "<group>"; };
+		7541A2601967CEB300758620 /* imgres-13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-13.jpg"; sourceTree = "<group>"; };
+		7541A2611967CEB300758620 /* imgres-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-2.jpg"; sourceTree = "<group>"; };
+		7541A2621967CEB300758620 /* imgres-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-3.jpg"; sourceTree = "<group>"; };
+		7541A2631967CEB300758620 /* imgres-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-4.jpg"; sourceTree = "<group>"; };
+		7541A2641967CEB300758620 /* imgres-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-5.jpg"; sourceTree = "<group>"; };
+		7541A2651967CEB300758620 /* imgres-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-6.jpg"; sourceTree = "<group>"; };
+		7541A2661967CEB300758620 /* imgres-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-7.jpg"; sourceTree = "<group>"; };
+		7541A2671967CEB300758620 /* imgres-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-8.jpg"; sourceTree = "<group>"; };
+		7541A2681967CEB300758620 /* imgres-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "imgres-9.jpg"; sourceTree = "<group>"; };
+		7541A2691967CEB300758620 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
+		7541A26A1967CEB300758620 /* restart-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restart-button.png"; sourceTree = "<group>"; };
+		7541A26B1967CEB300758620 /* simpleBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpleBg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7541A2151967CDA200758620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A21E1967CDA200758620 /* CoreGraphics.framework in Frameworks */,
+				7541A2201967CDA200758620 /* UIKit.framework in Frameworks */,
+				7541A21C1967CDA200758620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541A2301967CDA200758620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A2351967CDA200758620 /* XCTest.framework in Frameworks */,
+				7541A2371967CDA200758620 /* UIKit.framework in Frameworks */,
+				7541A2361967CDA200758620 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7541A20F1967CDA200758620 = {
+			isa = PBXGroup;
+			children = (
+				7541A2211967CDA200758620 /* YashasPicturePuzzleGame */,
+				7541A23A1967CDA200758620 /* YashasPicturePuzzleGameTests */,
+				7541A21A1967CDA200758620 /* Frameworks */,
+				7541A2191967CDA200758620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7541A2191967CDA200758620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7541A2181967CDA200758620 /* YashasPicturePuzzleGame.app */,
+				7541A2331967CDA200758620 /* YashasPicturePuzzleGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7541A21A1967CDA200758620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7541A21B1967CDA200758620 /* Foundation.framework */,
+				7541A21D1967CDA200758620 /* CoreGraphics.framework */,
+				7541A21F1967CDA200758620 /* UIKit.framework */,
+				7541A2341967CDA200758620 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7541A2211967CDA200758620 /* YashasPicturePuzzleGame */ = {
+			isa = PBXGroup;
+			children = (
+				7541A22A1967CDA200758620 /* AppDelegate.h */,
+				7541A22B1967CDA200758620 /* AppDelegate.m */,
+				7541A24D1967CDBE00758620 /* restart-button.png */,
+				7541A24E1967CDBE00758620 /* ViewControllerz.h */,
+				7541A24F1967CDBE00758620 /* ViewControllerz.m */,
+				7541A2501967CDBE00758620 /* ViewControllerz.xib */,
+				7541A2571967CEB300758620 /* cars */,
+				7541A22D1967CDA200758620 /* Images.xcassets */,
+				7541A2221967CDA200758620 /* Supporting Files */,
+			);
+			path = YashasPicturePuzzleGame;
+			sourceTree = "<group>";
+		};
+		7541A2221967CDA200758620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7541A2231967CDA200758620 /* YashasPicturePuzzleGame-Info.plist */,
+				7541A2241967CDA200758620 /* InfoPlist.strings */,
+				7541A2271967CDA200758620 /* main.m */,
+				7541A2291967CDA200758620 /* YashasPicturePuzzleGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7541A23A1967CDA200758620 /* YashasPicturePuzzleGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7541A2401967CDA200758620 /* YashasPicturePuzzleGameTests.m */,
+				7541A23B1967CDA200758620 /* Supporting Files */,
+			);
+			path = YashasPicturePuzzleGameTests;
+			sourceTree = "<group>";
+		};
+		7541A23B1967CDA200758620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7541A23C1967CDA200758620 /* YashasPicturePuzzleGameTests-Info.plist */,
+				7541A23D1967CDA200758620 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7541A2571967CEB300758620 /* cars */ = {
+			isa = PBXGroup;
+			children = (
+				7541A24A1967CDBE00758620 /* FLW.jpg */,
+				7541A24B1967CDBE00758620 /* FRS.jpg */,
+				7541A24C1967CDBE00758620 /* ND.jpg */,
+				7541A2581967CEB300758620 /* DhmiT.png */,
+				7541A2591967CEB300758620 /* FLW.jpg */,
+				7541A25A1967CEB300758620 /* FRS.jpg */,
+				7541A25B1967CEB300758620 /* images.jpg */,
+				7541A25C1967CEB300758620 /* imgres-1.jpg */,
+				7541A25D1967CEB300758620 /* imgres-10.jpg */,
+				7541A25E1967CEB300758620 /* imgres-11.jpg */,
+				7541A25F1967CEB300758620 /* imgres-12.jpg */,
+				7541A2601967CEB300758620 /* imgres-13.jpg */,
+				7541A2611967CEB300758620 /* imgres-2.jpg */,
+				7541A2621967CEB300758620 /* imgres-3.jpg */,
+				7541A2631967CEB300758620 /* imgres-4.jpg */,
+				7541A2641967CEB300758620 /* imgres-5.jpg */,
+				7541A2651967CEB300758620 /* imgres-6.jpg */,
+				7541A2661967CEB300758620 /* imgres-7.jpg */,
+				7541A2671967CEB300758620 /* imgres-8.jpg */,
+				7541A2681967CEB300758620 /* imgres-9.jpg */,
+				7541A2691967CEB300758620 /* imgres.jpg */,
+				7541A26A1967CEB300758620 /* restart-button.png */,
+				7541A26B1967CEB300758620 /* simpleBg.jpg */,
+			);
+			path = cars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7541A2171967CDA200758620 /* YashasPicturePuzzleGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541A2441967CDA200758620 /* Build configuration list for PBXNativeTarget "YashasPicturePuzzleGame" */;
+			buildPhases = (
+				7541A2141967CDA200758620 /* Sources */,
+				7541A2151967CDA200758620 /* Frameworks */,
+				7541A2161967CDA200758620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YashasPicturePuzzleGame;
+			productName = YashasPicturePuzzleGame;
+			productReference = 7541A2181967CDA200758620 /* YashasPicturePuzzleGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7541A2321967CDA200758620 /* YashasPicturePuzzleGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7541A2471967CDA200758620 /* Build configuration list for PBXNativeTarget "YashasPicturePuzzleGameTests" */;
+			buildPhases = (
+				7541A22F1967CDA200758620 /* Sources */,
+				7541A2301967CDA200758620 /* Frameworks */,
+				7541A2311967CDA200758620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7541A2391967CDA200758620 /* PBXTargetDependency */,
+			);
+			name = YashasPicturePuzzleGameTests;
+			productName = YashasPicturePuzzleGameTests;
+			productReference = 7541A2331967CDA200758620 /* YashasPicturePuzzleGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7541A2101967CDA200758620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = spaneos;
+				TargetAttributes = {
+					7541A2321967CDA200758620 = {
+						TestTargetID = 7541A2171967CDA200758620;
+					};
+				};
+			};
+			buildConfigurationList = 7541A2131967CDA200758620 /* Build configuration list for PBXProject "YashasPicturePuzzleGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7541A20F1967CDA200758620;
+			productRefGroup = 7541A2191967CDA200758620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7541A2171967CDA200758620 /* YashasPicturePuzzleGame */,
+				7541A2321967CDA200758620 /* YashasPicturePuzzleGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7541A2161967CDA200758620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A2781967CEB300758620 /* imgres-5.jpg in Resources */,
+				7541A26D1967CEB300758620 /* FLW.jpg in Resources */,
+				7541A2531967CDBE00758620 /* ND.jpg in Resources */,
+				7541A2761967CEB300758620 /* imgres-3.jpg in Resources */,
+				7541A2541967CDBE00758620 /* restart-button.png in Resources */,
+				7541A27E1967CEB300758620 /* restart-button.png in Resources */,
+				7541A26C1967CEB300758620 /* DhmiT.png in Resources */,
+				7541A27A1967CEB300758620 /* imgres-7.jpg in Resources */,
+				7541A2741967CEB300758620 /* imgres-13.jpg in Resources */,
+				7541A27C1967CEB300758620 /* imgres-9.jpg in Resources */,
+				7541A27B1967CEB300758620 /* imgres-8.jpg in Resources */,
+				7541A2511967CDBE00758620 /* FLW.jpg in Resources */,
+				7541A2791967CEB300758620 /* imgres-6.jpg in Resources */,
+				7541A26F1967CEB300758620 /* images.jpg in Resources */,
+				7541A2521967CDBE00758620 /* FRS.jpg in Resources */,
+				7541A2561967CDBE00758620 /* ViewControllerz.xib in Resources */,
+				7541A2701967CEB300758620 /* imgres-1.jpg in Resources */,
+				7541A27F1967CEB300758620 /* simpleBg.jpg in Resources */,
+				7541A27D1967CEB300758620 /* imgres.jpg in Resources */,
+				7541A2751967CEB300758620 /* imgres-2.jpg in Resources */,
+				7541A2261967CDA200758620 /* InfoPlist.strings in Resources */,
+				7541A2721967CEB300758620 /* imgres-11.jpg in Resources */,
+				7541A22E1967CDA200758620 /* Images.xcassets in Resources */,
+				7541A2771967CEB300758620 /* imgres-4.jpg in Resources */,
+				7541A26E1967CEB300758620 /* FRS.jpg in Resources */,
+				7541A2731967CEB300758620 /* imgres-12.jpg in Resources */,
+				7541A2711967CEB300758620 /* imgres-10.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541A2311967CDA200758620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A23F1967CDA200758620 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7541A2141967CDA200758620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A22C1967CDA200758620 /* AppDelegate.m in Sources */,
+				7541A2281967CDA200758620 /* main.m in Sources */,
+				7541A2551967CDBE00758620 /* ViewControllerz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7541A22F1967CDA200758620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7541A2411967CDA200758620 /* YashasPicturePuzzleGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7541A2391967CDA200758620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7541A2171967CDA200758620 /* YashasPicturePuzzleGame */;
+			targetProxy = 7541A2381967CDA200758620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7541A2241967CDA200758620 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7541A2251967CDA200758620 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7541A23D1967CDA200758620 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7541A23E1967CDA200758620 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7541A2421967CDA200758620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7541A2431967CDA200758620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7541A2451967CDA200758620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Prefix.pch";
+				INFOPLIST_FILE = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7541A2461967CDA200758620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Prefix.pch";
+				INFOPLIST_FILE = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7541A2481967CDA200758620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YashasPicturePuzzleGame.app/YashasPicturePuzzleGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YashasPicturePuzzleGameTests/YashasPicturePuzzleGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7541A2491967CDA200758620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YashasPicturePuzzleGame.app/YashasPicturePuzzleGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YashasPicturePuzzleGame/YashasPicturePuzzleGame-Prefix.pch";
+				INFOPLIST_FILE = "YashasPicturePuzzleGameTests/YashasPicturePuzzleGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7541A2131967CDA200758620 /* Build configuration list for PBXProject "YashasPicturePuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541A2421967CDA200758620 /* Debug */,
+				7541A2431967CDA200758620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7541A2441967CDA200758620 /* Build configuration list for PBXNativeTarget "YashasPicturePuzzleGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541A2451967CDA200758620 /* Debug */,
+				7541A2461967CDA200758620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7541A2471967CDA200758620 /* Build configuration list for PBXNativeTarget "YashasPicturePuzzleGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7541A2481967CDA200758620 /* Debug */,
+				7541A2491967CDA200758620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7541A2101967CDA200758620 /* Project object */;
+}
